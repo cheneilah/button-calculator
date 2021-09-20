@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Fredericka the Great', cursive;
+  background-color: #d34837;
+
+}
+
+.header {
+  position: relative;
+}
+
+.content {
+  position: relative;
+  width: auto;
+}
+
+input{
+  margin: 1rem 0;
+  border-radius: 5px;
+  height: 2rem;
+  width: 15rem;
+  font-size: 1.5rem;
+  background-color: #7eb1b6;
+  border-color: #825016;
+  border-width: 5px;
+}
+
+h1 {
+  margin: 0.5rem auto;
+  font-family: 'Monoton', cursive;
+  font-size: 5rem;
+  font-weight: lighter;
+  text-shadow: 2px 2px #7eb1b6;
+
+}
+
+.content-square {
+  position: relative;
+  height: 25rem;
+  width: 20rem;
+  margin: 0 auto;
+  background-color: #e49d32;
+  border-radius: 5px;
+  border-color: black;
+  border: 3px solid;
+  padding: 8px;
+  box-shadow: 5px 10px #888888;
+
+}
+
+
+button {
+  font-family: 'Fredericka the Great', cursive;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 5px;
+  font-size: 2rem;
+  background-color: #825016;
+  color: white;
+
+}
+
+button[type="submit"] {
+  margin: 2rem 0;
+  height: 4rem;
+  width: 10rem;
+  background-color: #d24f22;
+
+}
+
+button[type="other"] {
+  background-color: #d24f22;
+
+}
+
+.answer-square{
+  position: relative;
+  margin: 2rem auto;
+  visibility: hidden;
+  height: 50%;
+  width:50%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  position: relative;
+  margin: 2rem auto;
+  height: 30%;
+  width:20%;
+  font-size: 5rem;
+  color: #EDE9D0;
+  font-family: 'Fredericka the Great', cursive;
+}
